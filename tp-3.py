@@ -1,5 +1,6 @@
-
-def procesar_venta_medicamento(tipo_cliente, tiene_obra_social, tipo_medicamento, dia_semana):
+def procesar_venta_medicamento(
+    tipo_cliente, tiene_obra_social, tipo_medicamento, dia_semana
+):
     # ERROR 1: Alta Complejidad Ciclomatica (if/else anidados)
     if tipo_cliente == "jubilado":
         if tiene_obra_social:
